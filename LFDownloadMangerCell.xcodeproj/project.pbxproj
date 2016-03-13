@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61AA9E81C9505DC00413E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AA9E71C9505DC00413E49 /* main.m */; };
+		D61AA9EB1C9505DC00413E49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AA9EA1C9505DC00413E49 /* AppDelegate.m */; };
+		D61AA9EE1C9505DC00413E49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AA9ED1C9505DC00413E49 /* ViewController.m */; };
+		D61AA9F31C9505DC00413E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61AA9F21C9505DC00413E49 /* Assets.xcassets */; };
+		D61AA9F61C9505DC00413E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61AA9F41C9505DC00413E49 /* LaunchScreen.storyboard */; };
+		D61AA9FF1C95063C00413E49 /* LFFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AA9FE1C95063C00413E49 /* LFFileListViewController.m */; };
+		D61AAA021C95081700413E49 /* LFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AAA011C95081700413E49 /* LFCell.m */; };
+		D61AAA0B1C950C6300413E49 /* LFDownloadConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AAA061C950C6300413E49 /* LFDownloadConst.m */; };
+		D61AAA0C1C950C6300413E49 /* LFDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AAA081C950C6300413E49 /* LFDownloadManager.m */; };
+		D61AAA0D1C950C6300413E49 /* NSString+LFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AAA0A1C950C6300413E49 /* NSString+LFDownload.m */; };
+		D61AAA101C950CF500413E49 /* LFProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61AAA0F1C950CF500413E49 /* LFProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D61AA9E31C9505DC00413E49 /* LFDownloadMangerCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFDownloadMangerCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61AA9E71C9505DC00413E49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D61AA9E91C9505DC00413E49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D61AA9EA1C9505DC00413E49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D61AA9EC1C9505DC00413E49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D61AA9ED1C9505DC00413E49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D61AA9F21C9505DC00413E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D61AA9F51C9505DC00413E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D61AA9F71C9505DC00413E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61AA9FD1C95063C00413E49 /* LFFileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFFileListViewController.h; path = LFDownloadManager/LFFileListViewController.h; sourceTree = "<group>"; };
+		D61AA9FE1C95063C00413E49 /* LFFileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFFileListViewController.m; path = LFDownloadManager/LFFileListViewController.m; sourceTree = "<group>"; };
+		D61AAA001C95081700413E49 /* LFCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFCell.h; path = LFDownloadManager/LFCell.h; sourceTree = "<group>"; };
+		D61AAA011C95081700413E49 /* LFCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFCell.m; path = LFDownloadManager/LFCell.m; sourceTree = "<group>"; };
+		D61AAA041C950C6300413E49 /* LFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFDownload.h; path = LFDownloadManager/LFDownload.h; sourceTree = "<group>"; };
+		D61AAA051C950C6300413E49 /* LFDownloadConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFDownloadConst.h; path = LFDownloadManager/LFDownloadConst.h; sourceTree = "<group>"; };
+		D61AAA061C950C6300413E49 /* LFDownloadConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFDownloadConst.m; path = LFDownloadManager/LFDownloadConst.m; sourceTree = "<group>"; };
+		D61AAA071C950C6300413E49 /* LFDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFDownloadManager.h; path = LFDownloadManager/LFDownloadManager.h; sourceTree = "<group>"; };
+		D61AAA081C950C6300413E49 /* LFDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFDownloadManager.m; path = LFDownloadManager/LFDownloadManager.m; sourceTree = "<group>"; };
+		D61AAA091C950C6300413E49 /* NSString+LFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+LFDownload.h"; path = "LFDownloadManager/NSString+LFDownload.h"; sourceTree = "<group>"; };
+		D61AAA0A1C950C6300413E49 /* NSString+LFDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LFDownload.m"; path = "LFDownloadManager/NSString+LFDownload.m"; sourceTree = "<group>"; };
+		D61AAA0E1C950CF500413E49 /* LFProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFProgressView.h; path = LFDownloadManager/LFProgressView.h; sourceTree = "<group>"; };
+		D61AAA0F1C950CF500413E49 /* LFProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFProgressView.m; path = LFDownloadManager/LFProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D61AA9E01C9505DC00413E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D61AA9DA1C9505DC00413E49 = {
+			isa = PBXGroup;
+			children = (
+				D61AA9E51C9505DC00413E49 /* LFDownloadMangerCell */,
+				D61AA9E41C9505DC00413E49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D61AA9E41C9505DC00413E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61AA9E31C9505DC00413E49 /* LFDownloadMangerCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61AA9E51C9505DC00413E49 /* LFDownloadMangerCell */ = {
+			isa = PBXGroup;
+			children = (
+				D61AAA031C950BB600413E49 /* DownloadManager */,
+				D61AA9E91C9505DC00413E49 /* AppDelegate.h */,
+				D61AA9EA1C9505DC00413E49 /* AppDelegate.m */,
+				D61AA9EC1C9505DC00413E49 /* ViewController.h */,
+				D61AA9ED1C9505DC00413E49 /* ViewController.m */,
+				D61AA9FD1C95063C00413E49 /* LFFileListViewController.h */,
+				D61AA9FE1C95063C00413E49 /* LFFileListViewController.m */,
+				D61AAA001C95081700413E49 /* LFCell.h */,
+				D61AAA011C95081700413E49 /* LFCell.m */,
+				D61AA9F21C9505DC00413E49 /* Assets.xcassets */,
+				D61AA9F41C9505DC00413E49 /* LaunchScreen.storyboard */,
+				D61AA9F71C9505DC00413E49 /* Info.plist */,
+				D61AA9E61C9505DC00413E49 /* Supporting Files */,
+			);
+			path = LFDownloadMangerCell;
+			sourceTree = "<group>";
+		};
+		D61AA9E61C9505DC00413E49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D61AA9E71C9505DC00413E49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D61AAA031C950BB600413E49 /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				D61AAA0E1C950CF500413E49 /* LFProgressView.h */,
+				D61AAA0F1C950CF500413E49 /* LFProgressView.m */,
+				D61AAA041C950C6300413E49 /* LFDownload.h */,
+				D61AAA051C950C6300413E49 /* LFDownloadConst.h */,
+				D61AAA061C950C6300413E49 /* LFDownloadConst.m */,
+				D61AAA071C950C6300413E49 /* LFDownloadManager.h */,
+				D61AAA081C950C6300413E49 /* LFDownloadManager.m */,
+				D61AAA091C950C6300413E49 /* NSString+LFDownload.h */,
+				D61AAA0A1C950C6300413E49 /* NSString+LFDownload.m */,
+			);
+			name = DownloadManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D61AA9E21C9505DC00413E49 /* LFDownloadMangerCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61AA9FA1C9505DC00413E49 /* Build configuration list for PBXNativeTarget "LFDownloadMangerCell" */;
+			buildPhases = (
+				D61AA9DF1C9505DC00413E49 /* Sources */,
+				D61AA9E01C9505DC00413E49 /* Frameworks */,
+				D61AA9E11C9505DC00413E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFDownloadMangerCell;
+			productName = LFDownloadMangerCell;
+			productReference = D61AA9E31C9505DC00413E49 /* LFDownloadMangerCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D61AA9DB1C9505DC00413E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lanfairy;
+				TargetAttributes = {
+					D61AA9E21C9505DC00413E49 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D61AA9DE1C9505DC00413E49 /* Build configuration list for PBXProject "LFDownloadMangerCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D61AA9DA1C9505DC00413E49;
+			productRefGroup = D61AA9E41C9505DC00413E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D61AA9E21C9505DC00413E49 /* LFDownloadMangerCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D61AA9E11C9505DC00413E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61AA9F61C9505DC00413E49 /* LaunchScreen.storyboard in Resources */,
+				D61AA9F31C9505DC00413E49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D61AA9DF1C9505DC00413E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61AA9EE1C9505DC00413E49 /* ViewController.m in Sources */,
+				D61AA9EB1C9505DC00413E49 /* AppDelegate.m in Sources */,
+				D61AA9FF1C95063C00413E49 /* LFFileListViewController.m in Sources */,
+				D61AAA021C95081700413E49 /* LFCell.m in Sources */,
+				D61AA9E81C9505DC00413E49 /* main.m in Sources */,
+				D61AAA0D1C950C6300413E49 /* NSString+LFDownload.m in Sources */,
+				D61AAA101C950CF500413E49 /* LFProgressView.m in Sources */,
+				D61AAA0C1C950C6300413E49 /* LFDownloadManager.m in Sources */,
+				D61AAA0B1C950C6300413E49 /* LFDownloadConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D61AA9F41C9505DC00413E49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D61AA9F51C9505DC00413E49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D61AA9F81C9505DC00413E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D61AA9F91C9505DC00413E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D61AA9FB1C9505DC00413E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LFDownloadMangerCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanfairy.LFDownloadMangerCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D61AA9FC1C9505DC00413E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LFDownloadMangerCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanfairy.LFDownloadMangerCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D61AA9DE1C9505DC00413E49 /* Build configuration list for PBXProject "LFDownloadMangerCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61AA9F81C9505DC00413E49 /* Debug */,
+				D61AA9F91C9505DC00413E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61AA9FA1C9505DC00413E49 /* Build configuration list for PBXNativeTarget "LFDownloadMangerCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61AA9FB1C9505DC00413E49 /* Debug */,
+				D61AA9FC1C9505DC00413E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D61AA9DB1C9505DC00413E49 /* Project object */;
+}
